@@ -1,0 +1,202 @@
+/***** BASE STYLES *****/
+
+@font-face {
+    font-family: 'Sweet-Hipster';
+    src: url('../fonts/sweet-hipster.ttf') format('truetype'),
+         url('../fonts/sweet-hipster-webfont.woff2') format('woff2'),
+         url('../fonts/sweet-hipster-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body p {
+    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0 40px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 100%;
+    overflow: auto;
+}
+
+.half-width {
+    width: 50%;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 800px;
+    background-image: url("../img/crew-56835-unsplash.jpg");
+    background-size: cover;
+}
+
+header h1 {
+    font-family: 'Sweet-Hipster';
+    color: #a93f55;
+    font-size: 80px;
+    padding-top: 20px;
+    padding-left: 15px;
+    margin: 0 auto;
+}
+
+header h2 {
+    font-family: 'Sweet-Hipster';
+    color: #151e3f;
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding-top: 100px;
+    clear: both;
+}
+
+nav {
+    float: right;
+    padding: 20px 15px;
+}
+  
+nav ul li {
+    display: inline-block;
+}
+  
+nav ul li a {
+    text-decoration: none;
+    color: #151e3f;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 45px;
+}
+
+/***** ABOUT *****/
+
+#about {
+    background-color: #edf9f8;
+    padding-bottom: 50px;
+}
+
+#about h3 {
+    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+}
+#about .about-block {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#about p {
+}
+
+#about img {
+    padding-top: 35px;
+}
+
+#about ul {
+    list-style-type: none;
+}
+
+#about ul li {
+    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+#about .skills {
+    padding-top: 25px;
+}
+
+/***** WORK *****/
+
+#work {
+    background-color: #a93f55;
+}
+
+#work .half-width {
+    height: 450px;
+}
+
+#work h3 {
+    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+#work .title {
+    margin-top: 100px;
+}
+
+#work img {
+    width: 550px;
+    height: 350px;
+}
+
+#work .portfolio-block {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/***** CONTACT *****/
+
+#contact {
+    background-color: #151e3f;
+    color: #fff;
+}
+
+#contact h3 {
+    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px 0;
+    margin-bottom: 0;
+    
+}
+
+#contact h4 {
+    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+#contact .half-width {
+    text-align: center;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact .contact-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact ul {
+    margin-top: 0;
+}
+
+/***** FOOTER *****/
+
+footer {
+    text-align: center;
+    background-color: #151e3f;
+    color: #edf9f8;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+
+
