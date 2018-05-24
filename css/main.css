@@ -16,6 +16,14 @@ body p {
     padding: 0 40px;
 }
 
+body h3 {
+    font-family: 'Sweet-Hipster';
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+
 /***** GRID *****/
 
 .full-width {
@@ -40,6 +48,7 @@ header h1 {
     font-family: 'Sweet-Hipster';
     color: #a93f55;
     font-size: 80px;
+    font-weight: normal;
     padding-top: 20px;
     padding-left: 15px;
     margin: 0 auto;
@@ -48,10 +57,12 @@ header h1 {
 header h2 {
     font-family: 'Sweet-Hipster';
     color: #151e3f;
-    font-size: 60px;
+    font-size: 80px;
+    font-weight: normal;
     text-align: center;
     margin: 0;
     padding-top: 100px;
+    padding-bottom: 15px;
     clear: both;
 }
 
@@ -68,6 +79,7 @@ nav ul li a {
     text-decoration: none;
     color: #151e3f;
     font-size: 14px;
+    font-weight: 700;
     text-transform: uppercase;
     padding-left: 45px;
 }
@@ -79,18 +91,10 @@ nav ul li a {
     padding-bottom: 50px;
 }
 
-#about h3 {
-    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-size: 24px;
-    padding: 20px 0;
-}
 #about .about-block {
     width: 1200px;
     margin: 0 auto;
-}
-
-#about p {
+    padding-top: 20px;
 }
 
 #about img {
@@ -121,13 +125,6 @@ nav ul li a {
     height: 450px;
 }
 
-#work h3 {
-    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-size: 24px;
-    padding: 20px 0;
-}
-
 #work .title {
     margin-top: 100px;
 }
@@ -135,6 +132,7 @@ nav ul li a {
 #work img {
     width: 550px;
     height: 350px;
+    padding-top: 40px;
 }
 
 #work .portfolio-block {
@@ -147,15 +145,6 @@ nav ul li a {
 #contact {
     background-color: #151e3f;
     color: #fff;
-}
-
-#contact h3 {
-    font-family: 'Gothic A1', Helvetica, Arial, sans-serif;
-    text-align: center;
-    font-size: 24px;
-    padding: 20px 0;
-    margin-bottom: 0;
-    
 }
 
 #contact h4 {
